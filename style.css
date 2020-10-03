@@ -1,0 +1,125 @@
+body {
+  background-color: rgb(255, 255, 255);
+  color: #000;
+  font: normal 16px Verdana, Geneva, sans-serif;
+  line-height: normal;
+  margin: 0;
+}
+#main-header {
+  background-color: #fc7200;
+  color: #fff;
+}
+#navbar {
+  background-color: #333;
+  color: #fff;
+}
+#navbar ul {
+  padding: 0;
+  list-style: none;
+}
+#navbar li {
+  display: inline;
+}
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 16px;
+}
+.active {
+  background-color: #fc7200;
+  padding: 16px;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fc7200;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.button {
+  background-color: #333;
+  color: #fc7200;
+  padding: 10px 15px;
+  border: none;
+}
+.button:hover {
+  background-color: #fc7200;
+  color: #333;
+}
+.my-form {
+  padding: 20px;
+}
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+.my-form label {
+  display: block;
+}
+.my-form input[type="text"],
+.my-form textarea {
+  padding: 8px;
+  width: 100%;
+}
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.clr {
+  clear: both;
+}
+.cbox {
+  background-color: fff;
+  color: #333;
+  border-left: 5px #fc7200 solid;
+  padding: 10px;
+}
+.hbox {
+  border: 3px solid #ccc;
+  padding: 20px;
+  margin: 20px 0;
+}
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+}
+.contents {
+  border: 1px #ccc solid;
+  padding: 10px;
+  border-radius: 15px;
+}
+#main-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+#contact-main-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 336px;
+}
+#about-main-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 351px;
+}
+.Notice {
+  color: #fc7200;
+}
