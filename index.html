@@ -1,67 +1,102 @@
 <!DOCTYPE HTML>
-<html lang="en" dir="ltr">
+<lang="en" dir="ltr">
 
-<head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <TITLE> JetMeteor </TITLE>
-    <link href='https://fonts.googleapis.com/css?family=East Sea Dokdo' rel='stylesheet'>
-    <link rel="icon" href="./images/logo.png" type="image/x-icon">
-    <!--Tab Icon-->
-</head>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <TITLE> JetMeteor </TITLE>
+        <link href='https://fonts.googleapis.com/css?family=East Sea Dokdo' rel='stylesheet'>
+        <link rel="icon" href="./images/logo.png" type="image/x-icon">
+        <!--Tab Icon-->
+    </head>
 
-<body>
-    <header id="main-header">
+    <body>
+        <header id="main-header">
+            <div class="container">
+                <h1 class="headerText">JetMeteor</h1>
+            </div>
+        </header>
+        <nav id="navbar">
+            <!--Navigation Bar-->
+            <div class="container">
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <button class="show-modal">About</button>
+                </ul>
+            </div>
+        </nav>
         <div class="container">
-            <h1 class="headerText">JetMeteor</h1>
+
+            <div class="block">
+                <!--link no 1-->
+                <img class="image" src="./images/blogs.jpg" />
+                <a href="Blog.html">
+                    <h3>Educational Blogs</h3>
+                </a>
+                <p></p>
+            </div>
+
+            <div class="block">
+                <!--link no 2-->
+                <img class="image" src="./images/coding.jpg" />
+                <a href="code.html">
+                    <h3>Coding</h3>
+                </a>
+                <p></p>
+            </div>
+
+            <div class="block">
+                <!--link no 3-->
+                <img class="image" src="./images/useful_links.jpg" />
+                <a href="Useful links.html">
+                    <h3>Useful Links</h3>
+                </a>
+                <p></p>
+            </div>
+            <br>
+            <br>
+            <div class="container">
+                <p><b>If you want my website source code. If you encounter any bugs or any problems contact me on:
+                    </b><a href="mailto:  5kchqvw6r@relay.firefox.com"> 5kchqvw6r@relay.firefox.com</a></p>
+            </div>
+            <form class="my-form">
+                <!--Form by the way this form is not connected to database so input will not be saved-->
+                <div class="container">
+                    <br><b>Demo Form:</b><br><br>
+                    <label>Name: </label>
+                    <input class="name" type="text" name="name">
+                </div>
+                <div class="container">
+                    <label>Email: </label>
+                    <input class="email" type="text" name="email">
+                </div>
+                <div class="container">
+                    <label>Message: </label>
+                    <textarea class="msg" name="message"></textarea>
+                </div>
+                <input class="submit" type="button" onclick="location.href='Submitted.html';" value="submit" />
+                <!--Submit Button-->
+            </form>
+
         </div>
-    </header>
-    <nav id="navbar">
-        <!--Navigation Bar-->
-        <div class="container">
-            <ul>
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
+        <footer id="main-footer">
+            <p>This site is maintained by Pranav Dalvi</p>
+        </footer>
+
+
+        <div class="modal hidden"><button class="close-modal">&times;</button>
+            <h1>About Us</h1>
+            <img class="center" src="./images/logo.png" height="150" width="200" />
+            <p><b>Ok there is nothing Us this site made and maintained by Pranav Dalvi. I made this site to
+                    understand the core concepts of HTML, CSS and JavaScript. If you found any bugs or problems help
+                    will be
+                    appreciated more details on contact tab </b></p>
         </div>
-    </nav>
-    <div class="container">
+        <div class="overlay hidden"></div>
 
-        <div class="block">
-            <!--link no 1-->
-            <img class="image" src="./images/blogs.jpg" />
-            <a href="Blog.html">
-                <h3>Educational Blogs</h3>
-            </a>
-            <p></p>
-        </div>
 
-        <div class="block">
-            <!--link no 2-->
-            <img class="image" src="./images/coding.jpg" />
-            <a href="code.html">
-                <h3>Coding</h3>
-            </a>
-            <p></p>
-        </div>
+        <script src="script.js"></script>
+    </body>
 
-        <div class="block">
-            <!--link no 3-->
-            <img class="image" src="./images/useful_links.jpg" />
-            <a href="Useful links.html">
-                <h3>Useful Links</h3>
-            </a>
-            <p></p>
-        </div>
-
-    </div>
-
-    <footer id="main-footer">
-        <p>This site is maintained by Pranav Dalvi</p>
-    </footer>
-
-</body>
-
-</html>
+    </html>
